@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 
 source = json.loads(Path("workload/source.json").read_text())
-if source["repository"] != "https://github.com/talisman36935/gcp-platform-delivery-lab.git":
+if source["repository"] != "https://github.com/talisman36935org/gcp-platform-delivery-lab.git":
     raise SystemExit("Unexpected shared-source repository")
 if source["directory"] != "workload":
     raise SystemExit("Unexpected source directory")

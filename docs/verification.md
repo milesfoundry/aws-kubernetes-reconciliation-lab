@@ -2,7 +2,7 @@
 
 ## Hosted application GitOps — 2026-10-06
 
-[37444041498](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37444041498)
+[37444041498](https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab/actions/runs/37444041498)
 passed actual application baseline/promotion/configuration rollback/drift repair,
 source/replica/image/golden report assertions, migration ordering, direct RBAC and
 controller denial, local policy probes, independent observation validation and
@@ -13,7 +13,7 @@ binary/schema rollback, Config Sync and EKS/cloud lifecycle remain unqualified.
 ## Initial foundation — 2026-10-03
 
 Source: `02711fca85f1a1f82b493d580a83c1d1d944e129`.
-[Hosted run 37145049038](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37145049038)
+[Hosted run 37145049038](https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab/actions/runs/37145049038)
 passed lifecycle negative tests, shell syntax/ShellCheck, and the real local
 kind/Flux integration:
 

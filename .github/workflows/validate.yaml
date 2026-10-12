@@ -34,7 +34,7 @@ jobs:
         run: python3 scripts/check-source.py >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
-          repository: talisman36935/gcp-platform-delivery-lab
+          repository: talisman36935org/gcp-platform-delivery-lab
           ref: ${{ steps.source.outputs.revision }}
           path: shared-source
           persist-credentials: false

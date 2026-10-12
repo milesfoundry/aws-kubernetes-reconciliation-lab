@@ -20,7 +20,7 @@ trap cleanup EXIT
 kind create cluster --name "$name" --config "$root/bootstrap/kind.yaml" \
   --image kindest/node:v1.35.8@sha256:07b2536e30b803ed61d1677a79df6115f798ce64c80f9e22f6ed45afd09323c0 --wait 180s
 flux install --version=v2.9.6 --components=source-controller,kustomize-controller --timeout=5m
-flux create source git portfolio --url=https://github.com/talisman36935/aws-kubernetes-reconciliation-lab \
+flux create source git portfolio --url=https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab \
   --commit="$revision" --interval=1m --timeout=3m
 flux create kustomization local-contract --source=GitRepository/portfolio \
   --path=./management/local --prune=true --interval=1m --wait=true --timeout=3m
