@@ -1,6 +1,6 @@
 # Qualified application GitOps observation — 2026-10-06
 
-[Qualify application GitOps 37444041498](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37444041498)
+[Qualify application GitOps 37444041498](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37444041498)
 passed runtime and independent evidence validation at candidate
 `d418d3ffbf37d3021cf9fb784415af307db2da9e`, baseline
 `e338078bf53da0195033299c8a1dccd03f31d638`.

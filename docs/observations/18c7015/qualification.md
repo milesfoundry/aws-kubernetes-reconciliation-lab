@@ -1,6 +1,6 @@
 # AWS application GitOps qualification — 2026-10-06
 
-[Hosted run 37482370289](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37482370289)
+[Hosted run 37482370289](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37482370289)
 passed the hosted `kind`/Flux qualification and its independent evidence-shape
 validator. The allowlisted observation is in `workload-gitops.json`.
 

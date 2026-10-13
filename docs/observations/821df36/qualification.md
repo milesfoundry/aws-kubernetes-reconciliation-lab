@@ -1,6 +1,6 @@
 # Runtime pass, observation alias defect — 2026-10-06
 
-[Run 37442671990](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37442671990)
+[Run 37442671990](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37442671990)
 passed runtime checks at candidate `821df36881e03ae80545ff9dcbc298b0da052c80`,
 baseline `e338078`: migration ordering, exact source revisions, three ready
 API/worker replicas, golden reports through promotion/config rollback/drift repair,
