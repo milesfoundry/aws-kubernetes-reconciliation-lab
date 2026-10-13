@@ -2,9 +2,9 @@
 
 ## Current source-pin promotion — 2026-10-07
 
-AWS Validate [37690653997](https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab/actions/runs/37690653997)
+AWS Validate [37690653997](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37690653997)
 passed for the source/image lock at `2202e139`. Hosted qualification
-[37690806373](https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab/actions/runs/37690806373)
+[37690806373](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37690806373)
 passed baseline, candidate promotion, source/image rollback, and drift repair with
 three golden jobs in each phase. The baseline used GCP source `3b1abf3` and its
 immutable image; the candidate used source `2202e139` and image
@@ -16,16 +16,16 @@ the impersonated controller was denied a Namespace create, the scoped API rights
 were observed, the local database allow/deny probes returned expected exit codes,
 and the cluster was deleted with no errors.
 
-Two earlier attempts remain accurately recorded: [37689635673](https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab/actions/runs/37689635673)
+Two earlier attempts remain accurately recorded: [37689635673](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37689635673)
 stopped before cluster creation because the candidate diff included a README edit
-outside the qualification's allowlist; [37689903807](https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab/actions/runs/37689903807)
+outside the qualification's allowlist; [37689903807](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37689903807)
 ran the cluster and cleaned it up but exposed a mismatch between the baseline
 fixture's `candidate` marker and the harness's hard-coded phase label. The harness
 now derives and checks the synthetic marker from each exact source revision. These
 results qualify hosted kind/Flux application behavior only, not AWS/EKS or cloud
 services.
 
-Prior source-pin run: [37522142251](https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab/actions/runs/37522142251)
+Prior source-pin run: [37522142251](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37522142251)
 passed against baseline `bba5671e7d0c741445da0b272563729d754affc0` and candidate
 `bed9efd1e2e0d563078f5535b9b5be8e2f88127d`. It promoted GCP source
 `3b1abf3b791b4ab95f852c860786ca91d8c0a381` and image
@@ -39,13 +39,13 @@ proved migration ordering, direct and controller RBAC denial, local network
 allow/deny behavior, drift repair and named-cluster cleanup. It provisions no
 cloud resources; this is hosted kind/Flux evidence, not AWS/EKS qualification.
 
-The prior configuration-only run [37496120127](https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab/actions/runs/37496120127)
+The prior configuration-only run [37496120127](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37496120127)
 remains archived at [`observations/372f432/workload-gitops.json`](observations/372f432/workload-gitops.json).
 
-The prior qualified pin's run [37482370289](https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab/actions/runs/37482370289)
+The prior qualified pin's run [37482370289](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37482370289)
 and sanitized result remain archived at [the 18c7015 observation](observations/18c7015/qualification.md).
 
-[Run 37444041498](https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab/actions/runs/37444041498)
+[Run 37444041498](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37444041498)
 passed all runtime and independent observation gates. The
 [qualified record and failure audit](observations/d418d3f/qualification.md) retain
 exact source revisions, twelve phase-local jobs, permission/network results and

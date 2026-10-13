@@ -368,7 +368,7 @@ def main():
                  "--timeout=180s", timeout=200)
             stage = "baseline-reconciliation"
             run("flux", "create", "source", "git", "portfolio",
-                "--url=https://github.com/talisman36935org/aws-kubernetes-reconciliation-lab",
+                "--url=https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab",
                 "--commit=" + args.baseline, "--interval=1m", "--timeout=3m", timeout=200)
             endpoints = json.loads(kube("-n", "default", "get", "endpoints", "kubernetes", "-o", "json"))
             endpoint = str(ipaddress.IPv4Address(endpoints["subsets"][0]["addresses"][0]["ip"]))
