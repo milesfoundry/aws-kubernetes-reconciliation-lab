@@ -1,5 +1,13 @@
 # Hosted application release and GitOps experiment
 
+## GHCR ownership note — 2026-10-15
+
+Current workflow/source pins use the Milesfoundry package
+`ghcr.io/milesfoundry/report-workshop@sha256:8b0dcf99cb782a04592fdc065201be0c14fe237282bb95118f7960f064c8c3c8`.
+The older `ghcr.io/talisman36935/report-workshop` references below are
+immutable historical qualification observations and rollback evidence. Do not
+rewrite those records; use the current source pin for new runs.
+
 ## Current source-pin promotion — 2026-10-07
 
 AWS Validate [37690653997](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37690653997)
