@@ -3,5 +3,5 @@
   "revision": "7e695d6791de82b9230e7ce3ab3621f6e4a56b72",
   "directory": "workload",
   "image_digest": "ghcr.io/milesfoundry/report-workshop@sha256:8b0dcf99cb782a04592fdc065201be0c14fe237282bb95118f7960f064c8c3c8",
-  "status": "Org image index was published from GCP source 7e695d6791de82b9230e7ce3ab3621f6e4a56b72 by qualification run 38659839420; anonymous manifest pull succeeds and full AMD64/ARM64 runtime-content qualification is still running. Prior AWS source/image promotion and rollback evidence remains in docs/observations; hosted tests use simulated workers on one machine, not cloud-zone evidence. Live-cloud provisioning, IAM/SQS/S3, EKS/CAPA/ACK, budget and independent cloud cleanup remain pending"
+  "status": "Org image index from GCP source 7e695d6791de82b9230e7ce3ab3621f6e4a56b72 passed Validate and publish/native-ARM/hosted-kind HA qualification in run 38659839420, including anonymous AMD64/ARM64 runtime-content verification. Prior AWS source/image promotion and rollback evidence remains in docs/observations; hosted tests use simulated workers on one machine, not cloud-zone evidence. Live-cloud provisioning, IAM/SQS/S3, EKS/CAPA/ACK, budget and independent cloud cleanup remain pending"
 }
