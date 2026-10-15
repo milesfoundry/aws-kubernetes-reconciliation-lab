@@ -49,7 +49,7 @@ class ObservationTests(unittest.TestCase):
         record = json.loads((ROOT / "docs/observations/821df36/workload-gitops.json").read_text())
         record["phases"][0]["jobs"] = record["phases"][0]["jobs"][:3]
         record["baseline_application_source"] = "a" * 40
-        record["baseline_image"] = "ghcr.io/talisman36935/report-workshop@sha256:" + "b" * 64
+        record["baseline_image"] = "ghcr.io/milesfoundry/report-workshop@sha256:" + "b" * 64
         record["configuration_rollback_only"] = False
         record["application_source_rollback"] = True
         for phase in record["phases"]:

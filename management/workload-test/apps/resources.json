@@ -12,7 +12,7 @@
           "app.kubernetes.io/name": "report-workshop"
         },
         "annotations": {
-          "portfolio.whitt.uk/source-revision": "2202e13962914f71e56b146ff7632282b9d04492"
+          "portfolio.whitt.uk/source-revision": "7e695d6791de82b9230e7ce3ab3621f6e4a56b72"
         }
       },
       "spec": {
@@ -83,7 +83,7 @@
             "containers": [
               {
                 "name": "api",
-                "image": "ghcr.io/talisman36935/report-workshop@sha256:3c08b2754404fdc14dda81ee4e0bc9f9f640a3223ccd89988f19e74250c41816",
+                "image": "ghcr.io/milesfoundry/report-workshop@sha256:8b0dcf99cb782a04592fdc065201be0c14fe237282bb95118f7960f064c8c3c8",
                 "args": [
                   "api"
                 ],
@@ -162,7 +162,7 @@
             "initContainers": [
               {
                 "name": "schema-ready",
-                "image": "ghcr.io/talisman36935/report-workshop@sha256:3c08b2754404fdc14dda81ee4e0bc9f9f640a3223ccd89988f19e74250c41816",
+                "image": "ghcr.io/milesfoundry/report-workshop@sha256:8b0dcf99cb782a04592fdc065201be0c14fe237282bb95118f7960f064c8c3c8",
                 "args": [
                   "schema-check"
                 ],
@@ -212,7 +212,7 @@
           "app.kubernetes.io/name": "report-workshop"
         },
         "annotations": {
-          "portfolio.whitt.uk/source-revision": "2202e13962914f71e56b146ff7632282b9d04492"
+          "portfolio.whitt.uk/source-revision": "7e695d6791de82b9230e7ce3ab3621f6e4a56b72"
         }
       },
       "spec": {
@@ -235,7 +235,7 @@
           "app.kubernetes.io/name": "report-workshop"
         },
         "annotations": {
-          "portfolio.whitt.uk/source-revision": "2202e13962914f71e56b146ff7632282b9d04492"
+          "portfolio.whitt.uk/source-revision": "7e695d6791de82b9230e7ce3ab3621f6e4a56b72"
         }
       },
       "spec": {
@@ -268,7 +268,7 @@
           "app.kubernetes.io/name": "report-workshop"
         },
         "annotations": {
-          "portfolio.whitt.uk/source-revision": "2202e13962914f71e56b146ff7632282b9d04492"
+          "portfolio.whitt.uk/source-revision": "7e695d6791de82b9230e7ce3ab3621f6e4a56b72"
         }
       },
       "spec": {
@@ -339,7 +339,7 @@
             "containers": [
               {
                 "name": "worker",
-                "image": "ghcr.io/talisman36935/report-workshop@sha256:3c08b2754404fdc14dda81ee4e0bc9f9f640a3223ccd89988f19e74250c41816",
+                "image": "ghcr.io/milesfoundry/report-workshop@sha256:8b0dcf99cb782a04592fdc065201be0c14fe237282bb95118f7960f064c8c3c8",
                 "args": [
                   "worker"
                 ],
@@ -412,7 +412,7 @@
             "initContainers": [
               {
                 "name": "schema-ready",
-                "image": "ghcr.io/talisman36935/report-workshop@sha256:3c08b2754404fdc14dda81ee4e0bc9f9f640a3223ccd89988f19e74250c41816",
+                "image": "ghcr.io/milesfoundry/report-workshop@sha256:8b0dcf99cb782a04592fdc065201be0c14fe237282bb95118f7960f064c8c3c8",
                 "args": [
                   "schema-check"
                 ],
@@ -462,7 +462,7 @@
           "app.kubernetes.io/name": "report-workshop"
         },
         "annotations": {
-          "portfolio.whitt.uk/source-revision": "2202e13962914f71e56b146ff7632282b9d04492"
+          "portfolio.whitt.uk/source-revision": "7e695d6791de82b9230e7ce3ab3621f6e4a56b72"
         }
       },
       "spec": {
@@ -485,7 +485,7 @@
           "app.kubernetes.io/name": "report-workshop"
         },
         "annotations": {
-          "portfolio.whitt.uk/source-revision": "2202e13962914f71e56b146ff7632282b9d04492"
+          "portfolio.whitt.uk/source-revision": "7e695d6791de82b9230e7ce3ab3621f6e4a56b72"
         }
       },
       "spec": {
