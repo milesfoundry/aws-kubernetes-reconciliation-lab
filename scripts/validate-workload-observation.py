@@ -32,14 +32,14 @@ def validate(record):
             raise ValueError("immutable revisions required")
     if record["baseline_revision"] == record["candidate_revision"]:
         raise ValueError("two distinct config revisions required")
-    if not re.fullmatch(r"ghcr\.io/talisman36935/report-workshop@sha256:[0-9a-f]{64}", record["image"]):
+    image_ref = r"ghcr\.io/(?:milesfoundry|talisman36935)/report-workshop@sha256:[0-9a-f]{64}"
+    if not re.fullmatch(image_ref, record["image"]):
         raise ValueError("immutable image required")
     source_changed = False
     if upgraded:
         if not re.fullmatch(r"[0-9a-f]{40}", record["baseline_application_source"]):
             raise ValueError("immutable baseline application source required")
-        if not re.fullmatch(r"ghcr\.io/talisman36935/report-workshop@sha256:[0-9a-f]{64}",
-                            record["baseline_image"]):
+        if not re.fullmatch(image_ref, record["baseline_image"]):
             raise ValueError("immutable baseline image required")
         source_changed = (record["baseline_application_source"], record["baseline_image"]) != (
             record["application_source"], record["image"])

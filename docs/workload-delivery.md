@@ -5,7 +5,7 @@ AWS consumes its immutable source and image in `workload/source.json`; it does n
 maintain a second application implementation. The delivery entry point requires
 a clean checkout of exactly that commit and a release record matching both pins.
 The current source pin is GCP source `2202e13962914f71e56b146ff7632282b9d04492` and
-image index `ghcr.io/talisman36935/report-workshop@sha256:3c08b2754404fdc14dda81ee4e0bc9f9f640a3223ccd89988f19e74250c41816`.
+image index `ghcr.io/milesfoundry/report-workshop@sha256:8b0dcf99cb782a04592fdc065201be0c14fe237282bb95118f7960f064c8c3c8`.
 That exact source passed GCP Validate (`37687488181`) and publish/native-ARM/
 hosted-kind HA qualification (`37687979581`). Anonymous verification checked
 AMD64/ARM64 runtime content. The source-scoped records are in the

@@ -8,7 +8,7 @@ passed for the source/image lock at `2202e139`. Hosted qualification
 passed baseline, candidate promotion, source/image rollback, and drift repair with
 three golden jobs in each phase. The baseline used GCP source `3b1abf3` and its
 immutable image; the candidate used source `2202e139` and image
-`ghcr.io/talisman36935/report-workshop@sha256:3c08b2754404fdc14dda81ee4e0bc9f9f640a3223ccd89988f19e74250c41816`.
+`ghcr.io/milesfoundry/report-workshop@sha256:8b0dcf99cb782a04592fdc065201be0c14fe237282bb95118f7960f064c8c3c8`.
 The [source-pinned observation](observations/a9ad22e/workload-gitops.json) records
 all phase-local jobs and exact pins. The independent validator passed; source
 rollback passed (not merely configuration rollback), migration preceded apps,
