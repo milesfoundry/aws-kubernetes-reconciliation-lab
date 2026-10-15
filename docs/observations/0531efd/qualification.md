@@ -1,6 +1,6 @@
 # Diagnostic application GitOps attempt — 2026-10-06
 
-[Run 37439207586](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37439207586)
+[Run 37439207586](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37439207586)
 at `0531efdc33e490261803e71b2daad5bc0033504b`, baseline `ddb35e0`, failed
 Reconcile, promote, roll back, repair drift and deny escalation: baseline DB wait
 timed out. Initdb completed, storage was Bound and one primary was Running/Ready;

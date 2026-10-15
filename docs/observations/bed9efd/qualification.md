@@ -1,8 +1,8 @@
 # Immutable workload release promotion and rollback — 2026-10-06
 
-[Validate 37521913969](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37521913969)
+[Validate 37521913969](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37521913969)
 and hosted qualification
-[37522142251](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37522142251)
+[37522142251](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37522142251)
 passed. The experiment started at AWS commit
 `bba5671e7d0c741445da0b272563729d754affc0` and exercised candidate
 `bed9efd1e2e0d563078f5535b9b5be8e2f88127d`.

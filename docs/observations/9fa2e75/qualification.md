@@ -1,9 +1,9 @@
 # Source-promotion preflight rejection — 2026-10-06
 
-Attempt [37520307121](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37520307121)
+Attempt [37520307121](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37520307121)
 compared baseline `4bac703499054eadd50925e44f98ce3a91d039c3` with candidate
 `9fa2e75f4efaad2c01a25a102ca61be222829619`. AWS Validate for the candidate
-passed as [37520099449](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37520099449).
+passed as [37520099449](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37520099449).
 
 The hosted qualification stopped at its preflight because the original harness
 only allowed configuration rollback when source/image locks were identical. No

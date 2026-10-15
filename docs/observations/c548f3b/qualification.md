@@ -1,6 +1,6 @@
 # Network fix and application health gate — 2026-10-06
 
-[Run 37440708542](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37440708542)
+[Run 37440708542](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37440708542)
 at `c548f3b15607702d9bd9a83dce1f4b2f8ce9aaee`, baseline `cd0c233`, failed
 the runtime step at baseline-reconciliation (CalledProcessError).
 

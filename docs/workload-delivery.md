@@ -9,19 +9,19 @@ image index `ghcr.io/talisman36935/report-workshop@sha256:3c08b2754404fdc14dda81
 That exact source passed GCP Validate (`37687488181`) and publish/native-ARM/
 hosted-kind HA qualification (`37687979581`). Anonymous verification checked
 AMD64/ARM64 runtime content. The source-scoped records are in the
-[GCP qualification observation](https://github.com/talisman36935/gcp-platform-delivery-lab/tree/main/docs/observations/2202e13).
+[GCP qualification observation](https://github.com/milesfoundry/gcp-platform-delivery-lab/tree/main/docs/observations/2202e13).
 The HA experiment used three simulated workers on one hosted machine; no cloud was
 provisioned and no cloud-zone failure or signature verification was established.
 The previous source lock's AWS fixture validation passed at
-[37521913969](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37521913969).
+[37521913969](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37521913969).
 Its hosted promotion/rollback experiment passed at
-[37522142251](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37522142251);
+[37522142251](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37522142251);
 its exact per-phase source/image and gate results are in
 [`observations/bed9efd/workload-gitops.json`](observations/bed9efd/workload-gitops.json).
 These are historical consumer qualifications for the prior source/image pair. The
 current lock's hosted source/image promotion, rollback, drift, RBAC, network and
 cleanup qualification passed at
-[37690806373](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37690806373);
+[37690806373](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37690806373);
 its allowlisted observation is archived at
 [`observations/a9ad22e/workload-gitops.json`](observations/a9ad22e/workload-gitops.json).
 The prior AWS record before that is archived at

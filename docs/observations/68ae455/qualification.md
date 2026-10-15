@@ -1,6 +1,6 @@
 # First application GitOps attempt — 2026-10-06
 
-Qualify application GitOps [37437874482](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37437874482)
+Qualify application GitOps [37437874482](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37437874482)
 at candidate `68ae455d4de9ef46e82ffa1329858063771f5caf`, baseline
 `ddb35e0c424c9f6b2002fb31afd7a62afd4754dc`, failed step
 Reconcile, promote, roll back, repair drift and deny escalation.

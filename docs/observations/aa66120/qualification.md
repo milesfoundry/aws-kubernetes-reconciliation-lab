@@ -1,9 +1,9 @@
 # Baseline marker mismatch — 2026-10-06
 
-Hosted attempt [37521237841](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37521237841)
+Hosted attempt [37521237841](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37521237841)
 used baseline `4bac703499054eadd50925e44f98ce3a91d039c3` and candidate
 `aa66120b2e6b5b343e99fbc0643a22991cc947e9`. Validate passed for the candidate
-at [37521046883](https://github.com/talisman36935/aws-kubernetes-reconciliation-lab/actions/runs/37521046883).
+at [37521046883](https://github.com/milesfoundry/aws-kubernetes-reconciliation-lab/actions/runs/37521046883).
 
 The disposable kind cluster was created, the three-instance database and baseline
 apps became ready, and baseline migration completed. The run failed before its
