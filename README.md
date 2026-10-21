@@ -17,7 +17,7 @@ local-path evidence. CAPI/CAPA, ACK S3/SQS, AWS identity, independent teardown
 audit and TTL janitor remain explicit next milestones. No AWS resources are
 provisioned by current code.
 
-## Offline checks
+## Credential-free checks
 
 Requirements: Python 3, `shellcheck` and `bash` for the static checks; the schema
 check downloads public release artifacts. Run from the repository root. None of

@@ -23,8 +23,9 @@ provisioned by current code**, and nothing here is live lifecycle proof.
 
 ## Setup and offline checks
 
-Run from the repository root. These are offline: no AWS credentials, no cloud
-calls, no cluster.
+Run from the repository root. These checks need no AWS credentials, provider
+mutation or cluster. Unit and shell checks can run offline; dependency and CRD
+schema downloads require network access.
 
 ```sh
 python3 -m unittest discover -s lifecycle -v
